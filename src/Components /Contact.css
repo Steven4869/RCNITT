@@ -1,0 +1,73 @@
+.ContactContainer {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    margin-bottom: 40px;
+  }
+  
+  .leftContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
+  }
+  
+  .rightContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
+  }
+
+  .rightContainer form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .rightContainer form label {
+    margin-bottom: 8px;
+  }
+  
+  .rightContainer form input,
+  .rightContainer form textarea {
+    margin-bottom: 16px;
+    width: 350px;
+    padding: 8px;
+  }
+  
+  .rightContainer form button {
+    padding: 8px 16px;
+    background-color: #007BFF;
+    font-size: 25px;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+  }
+  @media only screen and (max-width: 768px){
+    .ContactContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; /* Adjust as needed */
+      margin-bottom: 40px;
+    }
+    .leftContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .rightContainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+      text-align: center;
+    }
+    .rightContainer form input,
+  .rightContainer form textarea {
+    margin-bottom: 16px;
+    width: 250px;
+    padding: 8px;
+  }
+  }
+  

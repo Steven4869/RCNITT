@@ -1,0 +1,111 @@
+.Heading{
+    margin-top: 50px;
+    height: 70px;
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.HeadingText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.plot{
+    background-color: #2F2F2F;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.plotHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Lato;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; 
+margin-bottom: 90px;
+}
+.plotGraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px){
+
+    .Heading{
+        margin-top: 30px;
+        height: 90px;
+        background-color: #2F2F2F;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+   
+    .HeadingText{
+        
+        font-size: 20px;
+        font-weight: normal;
+  
+    }
+    .Content{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContentStarter{
+        margin-top: 40px;
+        color: #000;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; /* 48.42px */
+    letter-spacing: 0.3px;
+    text-align:justify
+    }
+    .plot{
+        background-color: #2F2F2F;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    .plotHeading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px; 
+    margin-bottom: 90px;
+    }
+    .plotGraph{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

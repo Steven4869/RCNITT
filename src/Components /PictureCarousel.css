@@ -1,0 +1,23 @@
+.picture-carousel {
+    display: flex;
+    overflow: hidden;
+    animation: scrollPictures 20s linear infinite; 
+    margin-bottom: 50px;
+    
+  }
+  
+  .picture-carousel img {
+    width: 200px;
+    height: 173px;
+    margin: 10px; /* Adjust margin between pictures as needed */
+  }
+  
+  @keyframes scrollPictures {
+    0% {
+      transform: translateX(100%); /* Start from the right edge */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to the left edge */
+    }
+  }
+  

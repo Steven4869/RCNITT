@@ -1,0 +1,290 @@
+[
+    {
+      "sno": 1,
+      "title": "L&T - MOU",
+      "agency": "L&T",
+      "fund": 45847581.00
+    },
+    {
+      "sno": 2,
+      "title": "DST-FIST",
+      "agency": "DST-FIST",
+      "fund": 23700000.00
+    },
+    {
+      "sno": 3,
+      "title": "Design And Development Of Robotic Based Continuous Fiberadditive Manufacturing System",
+      "agency": "DRDO",
+      "fund": 22455400.00
+    },
+    {
+      "sno": 4,
+      "title": "Prevention of premature failures and enhancing life of bottom rollers used in bucket wheel excavators",
+      "agency": "CMPDI",
+      "fund": 14677000.00
+    },
+    {
+      "sno": 5,
+      "title": "Sustainable energy system for achieving novel carbon neutral energy communities (SUSTENANCE)",
+      "agency": "DST",
+      "fund": 11860080.00
+    },
+    {
+      "sno": 6,
+      "title": "Inspire faculty Fellowship (Dr.Debashis Majhi)",
+      "agency": "DST- Inspire Faculty Award",
+      "fund": 11000000.00
+    },
+    {
+      "sno": 7,
+      "title": "Design and development of a fully automated prototype of the IITM bio mas gasification system",
+      "agency": "GAIL",
+      "fund": 9783970.00
+    },
+    {
+      "sno": 8,
+      "title": "DST Inspire Faculty",
+      "agency": "DST-INSPIRE",
+      "fund": 9500000.00
+    },
+    {
+      "sno": 9,
+      "title": "To Strengthen the postgraduate Teaching and Research facilities in the Department",
+      "agency": "DST-FIST",
+      "fund": 9300000.00
+    },
+    {
+      "sno": 10,
+      "title": "Development of oxide dispersion strengthened tungsten heavy alloys: study their structure-property relation",
+      "agency": "DRDO",
+      "fund": 8717744.00
+    },
+    {
+      "sno": 11,
+      "title": "Realisation of A1 Alloy AA2219/AA2014 integrally stiffened cylindrical structure through flow forming",
+      "agency": "ISRO-RESPOND",
+      "fund": 8435000.00
+    },
+    {
+      "sno": 12,
+      "title": "Design and development of WBG Device based high current converters for industry applications",
+      "agency": "MEITY",
+      "fund": 8376000.00
+    },
+    {
+      "sno": 13,
+      "title": "Micro-nano structured urinary catheters to minimize catheter-associated urinary tract infections (CAUTI)",
+      "agency": "STARS",
+      "fund": 7362400.00
+    },
+    {
+      "sno": 14,
+      "title": "Collaborative Research For Accelerated Development Of Materials & Devices For Energy Harvesting And Conservation Technologies",
+      "agency": "DST",
+      "fund": 7323628.00
+    },
+    {
+      "sno": 15,
+      "title": "Evaluation of pavement performance of coir reinforced rural roads in Tamil Nadu",
+      "agency": "COIR BOARD",
+      "fund": 7231000.00
+    },
+    {
+      "sno": 16,
+      "title": "Development of optimization models and decision support system for national highways",
+      "agency": "NHAI",
+      "fund": 6886000.00
+    },
+    {
+      "sno": 17,
+      "title": "Dst-materials MAP",
+      "agency": "DST",
+      "fund": 6125716.00
+    },
+    {
+      "sno": 18,
+      "title": "Wireless sensor node for online data transfer of parameters from electrical machines and drives",
+      "agency": "MEITY",
+      "fund": 5544000.00
+    },
+    {
+      "sno": 19,
+      "title": "Tuning Figure of Merit of Nanocrystalline Bi-Sb-Te-Se-Sn Thermoelectric Alloys via High Entropy Phenomena and Band Engineering and Fabricate Thermo-electric Generator",
+      "agency": "SERB",
+      "fund": 5412000.00
+    },
+    {
+      "sno": 20,
+      "title": "Photoredox catalyzed radical cross coupling reaction: Strategic utility towards bioactive heterocycles",
+      "agency": "SERB",
+      "fund": 5358300.00
+    },
+    {
+      "sno": 21,
+      "title": "Energy Conservative Approach towards sewage water treatment integrated with power generation and Desalination using exoeletrogen and Algal Biocathode",
+      "agency": "DST",
+      "fund": 5349369.00
+    },
+    {
+      "sno": 22,
+      "title": "Sustainable Energy-Efficient Green Ammonia Production by Plasma-water Interface",
+      "agency": "SERB",
+      "fund": 5318544.00
+    },
+    {
+      "sno": 23,
+      "title": "Machine learning /Artificial intelligence (ML/AI)hardware/software framework for vyomnoids",
+      "agency": "ISRO-RESPOND",
+      "fund": 4955000.00
+    },
+    {
+      "sno": 24,
+      "title": "Privacy Preserving and Secure Blockchain Technology and its Applications in Financial Sector",
+      "agency": "SPARC",
+      "fund": 4915144.00
+    },
+    {
+      "sno": 25,
+      "title": "DST-FIST",
+      "agency": "DST",
+      "fund": 4900000.00
+    },
+    {
+      "sno": 26,
+      "title": "Intelligent controller for electric vehicle charging through wind energy conversion systems",
+      "agency": "SPARC",
+      "fund": 4817740.00
+    },
+    {
+      "sno": 27,
+      "title": "Fracture of ammonium perchlorate crystal particles under compression, shear and impact",
+      "agency": "ISRO-STIC",
+      "fund": 4684780.00
+    },
+    {
+      "sno": 28,
+      "title": "Improvement of thermo-mechanical properties of aero-turbine blades through 3D printed auxetic structures",
+      "agency": "DST",
+      "fund": 4587668.00
+    },
+    {
+      "sno": 29,
+      "title": "Soil-Monopile-Wave interaction study for monopile supported offshore wind turbine",
+      "agency": "SPARC",
+      "fund": 4513610.00
+    },
+    {
+      "sno": 30,
+      "title": "Design and development of low cost multifunctional lower limb exoskeleton system for motion assistance to paraplegics",
+      "agency": "SERB",
+      "fund": 4256164.00
+    },
+    {
+      "sno": 31,
+      "title": "A 10 kw pilot PV Plant based on single axis solar tracking system using second lever principle",
+      "agency": "DST",
+      "fund": 4230626.00
+    },
+    {
+      "sno": 32,
+      "title": "Implementation and Performance Evaluation of Dynamic Wireless Electric Vehicle Charging System",
+      "agency": "SERB",
+      "fund": 4191264.00
+    },
+    {
+      "sno": 33,
+      "title": "Study of room temperature forming behaviour of CP-Ti and Ti-6Al-4V alloy sheets during the incremental forming process for cranial applications",
+      "agency": "SERB",
+      "fund": 4147000.00
+    },
+    {
+      "sno": 34,
+      "title": "Novel Technology for Residual Methane Abatement in Automotive Applications",
+      "agency": "SPARC",
+      "fund": 4136120.00
+    },
+    {
+      "sno": 35,
+      "title": "Role of HRM practices, Psychological Contract and Socioeconomic Factors in Gig Economy",
+      "agency": "SPARC",
+      "fund": 4102320.00
+    },
+    {
+      "sno": 36,
+      "title": "Transition metal catalyzed carbo-functionalization of conjugated alkene system: En route to natural and drug cores",
+      "agency": "SERB",
+      "fund": 3943764.00
+    },
+    {
+      "sno": 37,
+      "title": "Advanced thermal insulation system comprising of Nano Lignin core Vacuum insulation panels (VIPs) and Micro Encapsulated phase change materials (MEPCM)",
+      "agency": "SPARC",
+      "fund": 3855740.00
+    },
+    {
+      "sno": 38,
+      "title": "A Versatile portable framework for economic & skill empowerment of women's sustainable livelihoods through digital literacy",
+      "agency": "DST-SEED",
+      "fund": 3659298.00
+    },
+    {
+      "sno": 39,
+      "title": "On-line oil debris monitoring sensor",
+      "agency": "DST",
+      "fund": 3648340.00
+    },
+    {
+      "sno": 40,
+      "title": "Innovative and Environment Friendly Ground Improvement Technique for Mitigate Seismic Soil Liquefaction Risk",
+      "agency": "SERB",
+      "fund": 3573900.00
+    },
+    {
+      "sno": 41,
+      "title": "Conversion of Waste Energy into useful Electricity for Wireless Sensor Nodes",
+      "agency": "DST-INSPIRE",
+      "fund": 3500000.00
+    },
+    {
+      "sno": 42,
+      "title": "DST-Inspire Faculty Research project",
+      "agency": "DST-INSPIRE",
+      "fund": 3500000.00
+    },
+    {
+      "sno": 43,
+      "title": "Development of an Integrated Health Monitoring System for Large Engineering Structures",
+      "agency": "SERB-IMPRINT",
+      "fund": 3444000.00
+    },
+    {
+      "sno": 44,
+      "title": "Mn Based Melt Spun Ribbons For Magnetic Colling Of Naval Equipments",
+      "agency": "DRDO",
+      "fund": 3323700.00
+    },
+    {
+      "sno": 45,
+      "title": "Cross oxidative coupling/ cyclization cascade of amino acid enolate and enamines: an umpolung strategy for n heterocyclic compounds (COACCEE)",
+      "agency": "SERB",
+      "fund": 3308040.00
+    },
+    {
+      "sno": 46,
+      "title": "Chiral Donor/Acceptor Decorated Multi-Resonance Thermally Activated Delayed Fluorescence Emitters for Highly Efficient Narrowband Circularly Polarized Luminescence",
+      "agency": "SERB",
+      "fund": 3300000.00
+    },
+    {
+      "sno": 47,
+      "title": "Life Cycle assessment of CO2 reduction by energy efficient hybrid biomass pyrolysis and gasification",
+      "agency": "DST BRICS",
+      "fund": 3273540.00
+    },
+    {
+      "sno": 48,
+      "title": "Understanding the forming behavior of C103 alloy in different treated conditions for rocket engine nozzle applications",
+      "agency": "ISRO-RESPOND",
+      "fund": 3262000
+    }
+]

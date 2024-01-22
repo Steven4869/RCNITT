@@ -1,0 +1,51 @@
+[
+    {
+      "Role": "President",
+      "Name": "Dr. K. Muthukumar",
+      "Department": "Dept. of Chemical Engineering",
+      "Designation": "Professor"
+    },
+    {
+      "Role": "NIRF Coordinator",
+      "Name": "Dr. R. Gandhimathi",
+      "Department": "Dept. of Civil Engineering",
+      "Designation": "Professor"
+    },
+    {
+      "Role": "IPR Activity Coordinator",
+      "Name": "Dr. M. Jaya Bharata Reddy",
+      "Department": "Eletrical Engineering",
+      "Designation": "Associate Dean"
+    },
+    {
+      "Role": "Social Media Coordinator",
+      "Name": "Dr. Prince Gideon Kubendran Amos",
+      "Department": "Dept. of MME",
+      "Designation": "Assistant Professor"
+    },
+    {
+      "Role": "Innovation Activity Coordinator",
+      "Name": "Dr. Jitraj Saha",
+      "Department": "Dept. of Mathematics",
+      "Designation": "Assistant Professor"
+    },
+    {
+      "Role": "Internship Activity Coordinator",
+      "Name": "Dr. Sriram Shankar",
+      "Department": "Dept. of Instrumentation and Control Engineering",
+      "Designation": "Assistant Professor"
+    },
+    {
+      "Role": "Startup Activity Coordinator",
+      "Name": "Dr. M. Vasu",
+      "Department": "Dept. of Production Engineering",
+      "Designation": "Assistant Professor"
+    },
+    {
+      "Role": "Convener",
+      "Name": "Dr. C. Roobala",
+      "Department": "Sophisticated Instrumentation Facility (SIF)",
+      "Designation": "Scientific Officer"
+    }
+  ]
+  

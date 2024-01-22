@@ -1,0 +1,618 @@
+.homepage{
+    height: 525px;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.line-container {
+    margin-top: 5px;
+    position: relative;
+    width: 100%; /* Adjust the width as needed */
+    height: 2px; /* Adjust the height of the horizontal line */
+    background-color: black; /* Color of the horizontal line */
+  }
+
+  .vertical-line {
+    position: absolute;
+    left: 50%; /* Center the vertical line */
+    width: 2px; /* Width of the vertical line */
+    height: 20px; /* Height of the vertical line */
+    background-color: black; /* Color of the vertical line */
+  }
+
+  .circle {
+    position: absolute;
+    margin-top: 20px;
+    left: 49.6%; /* Center the circle */
+    width: 10px; /* Diameter of the circle */
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50%; /* Make it a circle */
+  }
+
+  .ResearchHeading{
+    font-family: Lato;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .deanMessage{
+    background-color: #2F2F2F;
+    display: flex;
+  }
+  .deanContent{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    flex-direction: column;
+    text-align: justify;
+    margin-bottom: 40px;
+  }
+  .deanHeading{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+  }
+  .deanText{
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+  }
+  .deanMessageText{
+    margin-top: 15px;
+    margin-left: 35px;
+    font-size: 20px;
+  }
+  .deanPicture{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .deanBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    height: 350px;
+    background-color: #FFF;
+    width: 400px;
+  }
+  .deanBoxPic{
+    
+    height: 300px;
+    width: 350px;
+    border: 2px solid black;
+  }
+  .deanInfo{
+    font-family: Lato;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height:150px;
+    background-color: #FFF;
+    width: 500px;
+    
+  }
+  .pictureSize{
+    height: 300px;
+    width: 350px;
+  }
+  .info1{
+    font-family: Lato;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .AssociateDeans{
+    font-family: Lato;
+
+    margin-bottom: 100px;
+  }
+  .AssociateDeansHeading{
+    margin-top: 30px;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+  }
+  .AssociateDeanLabels {
+    font-family: Lato;
+
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .AssociateDeanLabel {
+    font-family: Lato;
+
+    text-align: center;
+    width: 300px; /* Fixed width for each item */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Stack children vertically */
+  }
+  .AssociateDeanLabelHeading{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+  .AssociateDeanLabelHeader{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+ .RegistrarOfficeLabels{
+  font-family: Lato;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+ }
+ .RegistrarOfficeLabel{
+  font-family: Lato;
+
+    text-align: center;
+    width: 300px; /* Fixed width for each item */
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+ .RegistrarOfficeLabelHeading{
+  font-size: 30px;
+  margin-bottom: 30px;
+ }
+ .RegistrarOfficePictureLabel{
+  height: 200px;
+ }
+ 
+  .pictureLabel {
+    margin-bottom: 10px;
+    height: 150px;
+    width: 200px;
+  }
+  
+  .description {
+    font-family: Lato;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Fill the entire height of the AssociateDeanLabel */
+  }
+  .descriptionHeading{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .description-container {
+    font-family: Lato;
+    margin-top: 10px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+  }
+  .description-containerRegistrar {
+    font-family: Lato;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .description-container p {
+    margin: 5px 0;
+  }
+  .Achievements {
+    background: #2F2F2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .AchievementsHeading {
+    font-size: 35px;
+    font-weight: 800;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .AchievementsLabels {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    margin-bottom: 40px;
+  }
+  
+  .AchievementsLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px; /* Add space between items */
+  }
+  
+  .AchievementsText {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 2px solid white; /* Set border color to white */
+    text-align: center;
+    color: white;
+    width: 200px; /* Adjust the width as needed */
+    display: inline-flex;
+padding: 10.736px 62.584px 11.337px 62px;
+justify-content: center;
+align-items: center;
+    white-space: nowrap; /* Ensure text stays in one line */
+    overflow: hidden; /* Hide any potential overflow */
+    text-overflow: ellipsis; /* Display ellipsis if text overflows */
+  }
+  
+  
+  .AchievementsNumber {
+    font-size: 135px;
+    background: linear-gradient(291deg, #FE8E0B 25.35%, #F00 62.87%, #4413AB 92.68%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    position: relative;
+    animation: countUp 2s ease-in-out;
+  }
+  
+  .AchievementsContent {
+    color: white;
+    text-align: center;
+    max-width: 380px; /* Set a max-width for better alignment */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; /* Ensure even spacing of text */
+    font-size: 25px;
+  }
+  .GianCourse{
+    text-align: justify;
+  }
+  
+  
+  
+  @keyframes countUp {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .Projects {
+    margin-bottom: 50px;
+  }
+  
+  .ProjectsHeading {
+    font-family: Lato;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    /* Add your additional styling for ProjectsHeading */
+  }
+  
+  .ProjectsTable {
+    margin: 20px;
+  }
+  
+  .ProjectTable {
+    font-family: Lato;
+
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+
+  .view-more{
+    text-decoration: none;
+    border: 2px solid black;
+    height: 40px;
+    background-color: white;
+    color: #2F2F2F;
+    text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+  width: 15%;
+  margin-top: 30px;
+  }
+  .view-more-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .TitleProjects{
+    text-align: left;
+  }
+
+  .Globe{
+    margin-bottom: 100px;
+  }
+  
+  
+  .FundingAgenciesPics{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .FundingAgenciesPic{
+    width: 70%;
+  }
+  .CenterHeading{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 300px;
+  }
+  .InfrastructurePointsBullet{
+    margin: 10px;
+    max-width: 800px;
+    margin-left: 350px;
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+  .ContactInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 40px;
+  }
+  .ContactInformation{
+    font-size: 24px;
+  }
+  .InfrastructurePointsBullet ul li{
+    margin: 5px;
+    line-height: normal;
+  }
+  @media only screen and (max-width: 768px){
+    .RegistrarOffice{
+
+    }
+    .AssociateDeansHeading{
+      margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato;
+    }
+    .description {
+      font-family: Lato;
+      display: flex;
+      flex-direction: column;
+      height: 100%; /* Fill the entire height of the AssociateDeanLabel */
+    }
+    .descriptionHeading{
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .description-container {
+      font-family: Lato;
+      margin-top: 10px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .deanMessage{
+      background-color: #2F2F2F;
+      display: flex;
+      flex-direction: column;
+    }
+    .deanContent{
+      display: flex;
+      margin-left: 15px;
+      margin-right: 15px;
+      flex-direction: column;
+      text-align: justify;
+      margin-bottom: 0px;
+    }
+    .deanHeading{
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      color: #FFF;
+  
+      font-family: Lato;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: normal;
+    }
+    .deanText{
+      display: flex;
+      flex-direction: column;
+      color: #FFF;
+  
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+    }
+    .deanMessageText{
+      margin-top: 15px;
+      margin-left: 0px;
+      font-size: 20px;
+    }
+    .deanPicture{
+      margin-right: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #2F2F2F;
+  
+    }
+    .deanBox{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #2F2F2F;
+      margin-top: 0px;
+      width: 0px;
+      height: 300px;
+    }
+    .deanBoxPic{
+      
+      height: 250px;
+      width: 200px;
+      border: none;
+    }
+    .deanInfo{
+      font-family: Lato;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      margin-top: 5px;
+      background-color: #2F2F2F;
+      color: #FFF;
+      width: 300px;
+      height: 20px;
+      margin-bottom: 75px;
+
+      
+    }
+    .pictureSize{
+      height: 200px;
+      width: 200px;
+    }
+    .info1{
+      font-family: Lato;
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    a{
+      text-decoration: none;
+      cursor: pointer;
+      color: black;
+    }
+    .view-more{
+      text-decoration: none;
+      border: 2px solid black;
+      height: 40px;
+      background-color: white;
+      color: #2F2F2F;
+      text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    width: 75%;
+    margin-top: 30px;
+    }
+    .view-more-button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+    .AchievementsNumber{
+      font-size: 75px;
+    }
+    .ProjectsHeading {
+      font-family: Lato;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 25px;
+      font-weight: normal;
+      margin-bottom: 20px;
+      /* Add your additional styling for ProjectsHeading */
+    }
+    .InfrastructurePointsBullet{
+      margin: 10px;
+      max-width: 800px;
+      margin-left: 0px;
+      font-size: 18px;
+      line-height: normal;
+      margin-bottom: 15px;
+    }
+    .CenterHeading{
+      font-size: 20px;
+      font-weight: normal;
+      text-align: center;
+      margin-left: 0px;
+    }
+    .ContactInfo{
+      display: none;
+      flex-direction: column;
+      margin-left: 0px;
+      margin-bottom: 40px;
+    }
+    .ContactInformation{
+      font-size: 24px;
+    }
+   
+    
+  }
+  

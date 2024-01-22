@@ -1,0 +1,119 @@
+.Carousel {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.CarouselContent {
+  margin-top: 50px;
+  margin-left: 100px;
+  flex: 0 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  color: black;
+}
+
+.CarouselHeading {
+  display: flex;
+  text-align: justify;
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.CarouselText {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+
+.CarouselButton {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  color: #2F2F2F;
+  padding: 10px;
+  margin-top: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.CarouselButton:hover {
+  color: white;
+  background-color: #2F2F2F;
+}
+
+.CarouselBackground {
+  flex: 0 0 50%;
+  overflow: hidden; 
+  margin-left: 50px; /* Adjust the margin according to your preference */
+
+}
+
+/* Style for the image within the background */
+.CarouselPicture {
+  width: 70%; /* Adjust to your preference */
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .Carousel {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .CarouselContent {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 0 0 0 0%
+  
+  }
+  .CarouselButton {
+    width: 90%;
+    margin-top: 25px;
+  }
+  .CarouselButtonContent {
+    font-size: 16px;
+  }
+  .CarouselHeading {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+  }
+  .CarouselText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .CarouselBackground {
+    display: flex;
+    flex: 0 0 0 0%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+    margin-left: 0px; 
+  
+  }
+  .CarouselPicture {
+    width: 70%; /* Adjust to your preference */
+    height: auto;
+  }
+}

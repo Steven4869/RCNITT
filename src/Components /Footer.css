@@ -1,0 +1,151 @@
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2F2F2F;
+    font-family: Lato;
+}
+.LinksHeading, .HeaderHeading, .ConnectHeading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    font-family: Lato;
+
+}
+.LinksLabels, .HeaderLabels, .ConnectLabel{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: white;
+    font-family: Lato;
+
+}
+.Logo{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.LogoSize{
+    height: 100px;
+    width: 100px;
+}
+.sendEmail {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .sendEmailContainer {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .sendEmailInput {
+    width: 100%;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+  }
+  
+  .sendEmailButton {
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .ConnectLabel a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .LinksLabel a,
+.HeaderLabel a {
+  text-decoration: none;
+  color: white; /* Set the desired color */
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+  .Footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #2F2F2F;
+    font-family: Lato;
+}
+.LinksHeading, .HeaderHeading, .ConnectHeading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: white;
+    font-family: Lato;
+
+}
+.LinksLabels, .HeaderLabels, .ConnectLabel{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: white;
+    font-family: Lato;
+
+}
+.Logo{
+    display: none;
+}
+.LogoSize{
+    height: 100px;
+    width: 100px;
+}
+.sendEmail {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .sendEmailContainer {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .sendEmailInput {
+    width: 100%;
+    border: none;
+    height: 30px;
+    padding: 0 10px;
+  }
+  
+  .sendEmailButton {
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  .ConnectLabel a{
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  .LinksLabel a,
+.HeaderLabel a {
+  text-decoration: none;
+  color: white; /* Set the desired color */
+  margin-left: 5px;
+  cursor: pointer;
+}
+}

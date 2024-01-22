@@ -1,0 +1,254 @@
+.Heading{
+    margin-top: 50px;
+    height: 70px;
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.HeadingText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.ContentStarter{
+    margin-top: 40px;
+    max-width: 850px;
+    color: #000;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 161.4%; /* 48.42px */
+letter-spacing: 0.3px;
+}
+
+.StarterHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.StarterHeadingText{
+    color: #2F2F2F;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; /* 100% */
+}
+
+.Card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 16px;
+background: #FFF;
+box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 4px 4px 28.1px 1px rgba(12, 26, 75, 0.24);
+}
+.CardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+}
+.CardPictures{
+    height: 250px;
+    width: 330px;
+    border-radius: 20px;
+}
+.CardHeading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin-top: 10px;
+    text-align: center;
+font-family: Lato;
+font-size: 15px;
+font-style: normal;
+font-weight: 900;
+}
+
+.CardText{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Lato;
+font-size: 15px;
+font-style: normal;
+}
+.CardButton{
+    border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  color: #2F2F2F;
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.CardButton:hover{
+    background-color: #2F2F2F;
+    color: white;
+}
+.ViewButtons{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.ViewButtonsMore{
+    text-decoration: none;
+    border: 2px solid black;
+    height: 40px;
+    background-color: white;
+    color: #2F2F2F;
+    text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+  width: 20%;
+}
+.COEButtons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.COEButtonBack{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 40px;
+    background-color: white;
+    color: #2F2F2F;
+    text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+  width: 15%;
+}
+.COEButtonNext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid black;
+    height: 40px;
+    background-color: white;
+    color: #2F2F2F;
+    text-align: center;
+  cursor: pointer;
+  font-size: 25px;
+  width: 15%;
+}
+.COEPictures{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.COEPictureMain{
+    width: 300px;
+    height: 200px;
+}
+.InfrastructureHeading{
+    margin-left: 200px;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 600;
+}
+.InfrastructurePoints{
+    margin-left: 200px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 768px){
+    .ContentStarter{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal; /* 48.42px */
+    letter-spacing: normal;
+    }
+    .StarterHeading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .StarterHeadingText{
+        color: #2F2F2F;
+    font-family: Lato;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal; /* 100% */
+    }
+    .InfrastructureHeading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        font-family: Lato;
+        font-size: 25px;
+        font-weight: normal;
+    }
+    .InfrastructurePoints{
+        margin-left: 0px;
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    .COEPictures{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .COEPictureMain{
+        width: 300px;
+        height: 200px;
+        margin-top: 30px;
+    }
+    .COEButtonBack{
+        width: 30%;
+        font-size: 16px;
+    }
+    .COEButtonNext{
+        width: 30%;
+        font-size: 16px;
+
+    }
+}
