@@ -75,7 +75,7 @@ const MSME = () => {
 
       <td className="TitleProjects">{project.title}</td>
       <td>{project.participants}</td>
-      <td>{project.venue}</td>
+      <td className='Venue'>{project.venue}</td>
     </tr>
   ));
   return (
@@ -121,14 +121,27 @@ const MSME = () => {
           </ul>
         </div>
       </div>
+      <div className="Infrastructure">
+        <div className="CenterHeading">
+          MSME Advanced Executive Skill Development Programs (AESDP 2023-24){' '}
+        </div>
+        <div className="InfrastructurePointsBullet">
+          <ul>
+            <li>
+              NIT Trichy is awarded with Rs. 8 lakhs for the Advanced ESDP on ‘Solar Photovoltaics
+              Design & Industrial Applications’
+            </li>
+          </ul>
+        </div>
+      </div>
       <div className="StarterHeading">
-        <div className="StarterHeadingText">Details of 10 Awareness Programme</div>
+        <div className="StarterHeadingText">Details of 10 Awareness Programme</div>
       </div>
       <div className="Content">
         <div className="ContentStarter">
           Ten Awareness programs were conducted for different MSME sectors to promote the existing
           infrastructure at NIT Trichy and interacted about the requirements of the technical
-          support from the Institute:
+          support from the Institute:
         </div>
       </div>
       <div className="ProjectsTable">
@@ -144,19 +157,6 @@ const MSME = () => {
           </thead>
           <tbody>{tableRows}</tbody>
         </table>
-      </div>
-      <div className="Infrastructure">
-        <div className="CenterHeading">
-          MSME Advanced Executive Skill Development Programs (AESDP 2023-24){' '}
-        </div>
-        <div className="InfrastructurePointsBullet">
-          <ul>
-            <li>
-              NIT Trichy is awarded with Rs. 8 lakhs for the Advanced ESDP on ‘Solar Photovoltaics
-              Design & Industrial Applications’
-            </li>
-          </ul>
-        </div>
       </div>
 
       <Footer />

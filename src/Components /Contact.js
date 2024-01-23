@@ -45,15 +45,6 @@ const Contact = () => {
             <strong>General Queries:</strong> deanrco@nitt.edu
           </p>
           <p>
-            <strong>Administration, Industry Interaction:</strong> adrci@nitt.edu
-          </p>
-          <p>
-            <strong>Scholarships, Newsletter:</strong> adrs@nitt.edu
-          </p>
-          <p>
-            <strong>Industry and R&D, CSR projects:</strong> adrc@nitt.edu
-          </p>
-          <p>
             <strong>Research Collaboration, Funding:</strong> deanrc@nitt.edu
           </p>
         </div>

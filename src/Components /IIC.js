@@ -47,21 +47,9 @@ const IIC = () => {
           in realizing Atmanirbhar Bharat, i.e. a self-reliant nation.
         </div>
       </div>
-      <div className="Projects">
-        <div className="ProjectsHeading">Key Functionaries at IIC Institute</div>
-        <div className="ProjectsTable">
-          <table className="ProjectTable">
-            <thead className="ProjectTableHead">
-              <tr className="ProjectTableRow">
-                <th>Role</th>
-                <th>Name</th>
-                <th>Department</th>
-                <th>Designation</th>
-              </tr>
-            </thead>
-            <tbody>{tableRows}</tbody>
-          </table>
-        </div>
+      <div className="ContactInformation">
+        <div className="ContactInfoContent">For more details, contact: Dr. K. Muthukumar</div>
+        <div className="ContactInfoContent"> President, IIC.</div>
       </div>
       <Footer />
     </>

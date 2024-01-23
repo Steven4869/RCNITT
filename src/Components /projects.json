@@ -287,4 +287,487 @@
       "agency": "ISRO-RESPOND",
       "fund": 3262000
     }
+    ,
+      {
+        "sno": 49,
+        "title": "Design and development of ferrite dielectric based microstrip isolator for x-band application",
+        "agency": "ISRO-STIC",
+        "fund": 3209844.00
+      },
+      {
+        "sno": 50,
+        "title": "Fabrication of NASICON-structured Flexible Nanofibrous Electrolyte Sheets for All-Solid-State Sodium-Ion Batteries",
+        "agency": "SERB",
+        "fund": 3168600.00
+      },
+      {
+        "sno": 51,
+        "title": "Digitization of solar Photovoltaic Supply chain through Artificial Intelligence and Blockchain Technology",
+        "agency": "SERB",
+        "fund": 3093794.00
+      },
+      {
+        "sno": 52,
+        "title": "Development of a multi-axis actuation system for the probe in sub-surface scanning probe microscopy",
+        "agency": "SERB",
+        "fund": 3078900.00
+      },
+      {
+        "sno": 53,
+        "title": "Development of metal 3d printed lightweight flywheel and novel control algorithm for micro -gird energy storage applications",
+        "agency": "SERB",
+        "fund": 3036264.00
+      },
+      {
+        "sno": 54,
+        "title": "Margdardshan Scheme as Mentor Institution",
+        "agency": "AICTE",
+        "fund": 3000000.00
+      },
+      {
+        "sno": 55,
+        "title": "Municipal solid waste (soil like materials) and geotextile interaction study for pavement subgrade and embankment application in soft ground",
+        "agency": "MoT-NTTM",
+        "fund": 3000000.00
+      },
+      {
+        "sno": 56,
+        "title": "Spatio temporal modeling and analysis of urban heat island effect over bangolre and hyderbad cities in india usig geospatial techniquies",
+        "agency": "SERB",
+        "fund": 2967400.00
+      },
+      {
+        "sno": 57,
+        "title": "Development of low cost high performance 3D electrocatalyst for hydrogen production",
+        "agency": "DST",
+        "fund": 2889000.00
+      },
+      {
+        "sno": 58,
+        "title": "Using statistical data-mining techniques to understand the cumulative influence of geomerical and topological features on grain growth",
+        "agency": "SERB",
+        "fund": 2846840.00
+      },
+      {
+        "sno": 59,
+        "title": "EXPERIMENTAL INVESTIGATION ON CONVENTIONAL AND INNOVATIVE PILES FOR OFF SHORE WIND TURBINES (OWT) FOUNDATION SYSTEM SUBJECTED TO LONG TERM CYCLIE LOADING",
+        "agency": "SERB",
+        "fund": 2733544.00
+      },
+      {
+        "sno": 60,
+        "title": "Synthesis of less-explored organosillanes and their further application toward the synthetic and pharamacetical chemistry",
+        "agency": "CSIR",
+        "fund": 2716000.00
+      },
+      {
+        "sno": 61,
+        "title": "Laboratory and Field Performance Investigation of Rural Roads Stabilised with RBI Grade-81",
+        "agency": "NRRDA",
+        "fund": 2614000.00
+      },
+      {
+        "sno": 62,
+        "title": "Performance evaluvation of cement concrete pavments in rural roads",
+        "agency": "NRDA",
+        "fund": 2550000.00
+      },
+      {
+        "sno": 63,
+        "title": "Deep learning based reconfigurable and multifunctional nanophotonic interconnects for hyperscale data centers and 6G Backnaul networkes",
+        "agency": "SERB",
+        "fund": 2513764.00
+      },
+      {
+        "sno": 64,
+        "title": "Development of ammonia based flexible heat pipe for space application",
+        "agency": "ISRO-STIC",
+        "fund": 2499112.00
+      },
+      {
+        "sno": 65,
+        "title": "LC Bandpass Filter for space Technology",
+        "agency": "ISRO-STIC",
+        "fund": 2465100.00
+      },
+      {
+        "sno": 66,
+        "title": "Research and development of secure and privacy preserving blockchain based smart contract and its application",
+        "agency": "SERB",
+        "fund": 2297614.00
+      },
+      {
+        "sno": 67,
+        "title": "Exploration of variable impedance self sensing behaviour of Magnetic shape memory alloy actuator for assistive devices",
+        "agency": "DST",
+        "fund": 2238400.00
+      },
+      {
+        "sno": 68,
+        "title": "Employing in-cell catalysis for cancer therapy: Design of N, N-coordinating ligands and their ruthenium-arene com[lexes",
+        "agency": "SERB",
+        "fund": 2171400.00
+      },
+      {
+        "sno": 69,
+        "title": "NPDF PROJECT",
+        "agency": "SERB",
+        "fund": 2131200.00
+      },
+      {
+        "sno": 70,
+        "title": "DST-INSPIRE - PFMS",
+        "agency": "DST - Inspire Fellowship",
+        "fund": 2118400.00
+      },
+      {
+        "sno": 71,
+        "title": "Atomistic simulations of photoexcited processes of carbon dots based nanohybrids for rational design of efficent light harvesers",
+        "agency": "SERB",
+        "fund": 2095764.00
+      },
+      {
+        "sno": 72,
+        "title": "Emerging Alternative Construction Technology for the Affordable lightweight housing in seismic prone areas",
+        "agency": "SERB",
+        "fund": 2033900.00
+      },
+      {
+        "sno": 73,
+        "title": "Development of Bi -directional Battery charger -Discharge Regulator (BCDR)",
+        "agency": "ISRO-STIC",
+        "fund": 2016000.00
+      },
+      {
+        "sno": 74,
+        "title": "Development of novel sensing device for evaluvating sensory impairment on diabetic foot to detect ulcer risk areas at early stage",
+        "agency": "DST -SEED",
+        "fund": 2003320.00
+      },
+      {
+        "sno": 75,
+        "title": "DST - Inspire Fellowship",
+        "agency": "DST-INSPIRE",
+        "fund": 1965280.00
+      },
+      {
+        "sno": 76,
+        "title": "“Development of New Electrode Using 92% Rutile Grade Flux with Improved Operability and Industrial Applicability”",
+        "agency": "IREL",
+        "fund": 1956960.00
+      },
+      {
+        "sno": 77,
+        "title": "Design and Development of In-Situ Indigenous Soil Analysis system for effective Fertigation in Precision Farming",
+        "agency": "CDAC",
+        "fund": 1917000.00
+      },
+      {
+        "sno": 78,
+        "title": "Vibration Control Of Wind Turbine Blade",
+        "agency": "SERB",
+        "fund": 1814720.00
+      },
+      {
+        "sno": 79,
+        "title": "Interactive Virtual Surgery Training Agent",
+        "agency": "IIT Mandi iHub Foundation",
+        "fund": 1732500.00
+      },
+      {
+        "sno": 80,
+        "title": "Design and development of X band & Ka-band passive devices",
+        "agency": "ISRO-STIC",
+        "fund": 1719210.00
+      },
+      {
+        "sno": 81,
+        "title": "Low Impact Damage Detection in Composite Plate using Modal Data and Shearlet Analysis",
+        "agency": "DRDO-AR & DB",
+        "fund": 1718550.00
+      },
+      {
+        "sno": 82,
+        "title": "Orthogonal time frequency space modulation based index modulation of 6G Communication systems",
+        "agency": "SERB",
+        "fund": 1606940.00
+      },
+      {
+        "sno": 83,
+        "title": "study on colluding andriod apps:mitigating the threat using machine learning techniqie",
+        "agency": "SERB",
+        "fund": 1598120.00
+      },
+      {
+        "sno": 84,
+        "title": "Indo-Danish collaboration for data-driven control and optimization for a highly Efficient Distribution Grid (ID-EDGe)",
+        "agency": "DST",
+        "fund": 1580832.00
+      },
+      {
+        "sno": 85,
+        "title": "Development of Engine Performance Monitoring Module using Machine Learning Techniques",
+        "agency": "DRDO",
+        "fund": 1543100.00
+      },
+      {
+        "sno": 86,
+        "title": "Sychronization of time delayed boolean networks and its application in image encryption",
+        "agency": "DAE",
+        "fund": 1515900.00
+      },
+      {
+        "sno": 87,
+        "title": "Fabrication of multibore hollow fiber ultrafiltration and nanofiltration membranes enabled by nanostructured nanomaterials for water treatment",
+        "agency": "DST",
+        "fund": 1513680.00
+      },
+      {
+        "sno": 88,
+        "title": "Exploring the Factors Influencing - Women Police Personnel Work Performance and Women complainants",
+        "agency": "NCW",
+        "fund": 1412906.00
+      },
+      {
+        "sno": 89,
+        "title": "Cyber Bullying Awareness And Prevention Using Emotion Based Gaming Application",
+        "agency": "SERB",
+        "fund": 1370400.00
+      },
+      {
+        "sno": 90,
+        "title": "Design of controller for buck converter",
+        "agency": "ISRO-STIC",
+        "fund": 1279344.00
+      },
+      {
+        "sno": 91,
+        "title": "Design of digital signal process using SCL foundry",
+        "agency": "ISRO-STIC",
+        "fund": 1279344.00
+      },
+      {
+        "sno": 92,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 93,
+        "title": "Design and development of a resilient bulding integrated photo - voltac grid connected dc fast electric vehicle charging system for indian prospects",
+        "agency": "SERB - TARE Grant",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 94,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 95,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 96,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 97,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 98,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 99,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 100,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 101,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 102,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 103,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 104,
+        "title": "Tunable magnetic and magnetocaloric properties of rare earth free Fe-Ni-Cu crystalline and amorphous alloys through low cost chemical method for magnetic refrigeration applications",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 105,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 106,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 107,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 108,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 109,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 110,
+        "title": "Development of surface composites of Magnesium-Rare Earth alloy with controlled corrosion kinetics by Friction Stir Processing for sacrificial anodic applications",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 111,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 112,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 113,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 114,
+        "title": "TARE PROJECT",
+        "agency": "SERB",
+        "fund": 1005000.00
+      },
+      {
+        "sno": 115,
+        "title": "INSPIRE FELLOW",
+        "agency": "DST - INSPIRE",
+        "fund": 917920.00
+      },
+      {
+        "sno": 116,
+        "title": "INSPIRE FELLOW",
+        "agency": "DST - INSPIRE",
+        "fund": 917920.00
+      },
+      {
+        "sno": 117,
+        "title": "Development of Graphene based nanomaterials for bioelectricity generation through tannery wastewater treatment using microbial fuel cell",
+        "agency": "DST",
+        "fund": 910000.00
+      },
+      {
+        "sno": 118,
+        "title": "(CSIR-CRRI joint project) - Development of Trip Generation Manual for Indian Cities",
+        "agency": "CSIR",
+        "fund": 862500.00
+      },
+      {
+        "sno": 119,
+        "title": "Development of smart foods, bio-composites, Green packaging and bio-energy from Agro-residues",
+        "agency": "ICAR NASF",
+        "fund": 676315.00
+      },
+      {
+        "sno": 120,
+        "title": "Cellular Automata Based High Quality Pseudo Random Number Generation For Hardware Security",
+        "agency": "SERB",
+        "fund": 676280.00
+      },
+      {
+        "sno": 121,
+        "title": "Development of computer vision system for an AI assistant",
+        "agency": "ISRO-STIC",
+        "fund": 660000.00
+      },
+      {
+        "sno": 122,
+        "title": "Development of a mathematical system for performance evaluation of biodegradable plastic products towards environmental protection and lightweight sandwich structured artificial foot for below knee amputees",
+        "agency": "SERB",
+        "fund": 660000.00
+      },
+      {
+        "sno": 123,
+        "title": "NRDC-Innovation Facility Centre",
+        "agency": "NRDC",
+        "fund": 591000.00
+      },
+      {
+        "sno": 124,
+        "title": "Research on waterproofing and Retrofitting of structural Members",
+        "agency": "DYNARM",
+        "fund": 575000.00
+      },
+      {
+        "sno": 125,
+        "title": "Refurbishment of EOL personal computers/laptops with a focus on higher education institutions",
+        "agency": "Department of Higher Education EBSB Cell",
+        "fund": 544000.00
+      },
+      {
+        "sno": 126,
+        "title": "Tribal Freedom Fighters of Wayanad",
+        "agency": "ICSSR",
+        "fund": 500000.00
+      },
+      {
+        "sno": 127,
+        "title": "Ministry of Skill Development and Entrepreneurship (Pradhan Mantri Kaushal Vikas Yojna (PMKVY 4.0) - SKILLHUB Project",
+        "agency": null,
+        "fund": 485328.67
+      },
+      {
+        "sno": 128,
+        "title": "Magnetism for environmental remediation",
+        "agency": "MSSP",
+        "fund": 396663.00
+      }
+      
+    
 ]
