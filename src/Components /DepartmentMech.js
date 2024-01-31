@@ -9,6 +9,9 @@ const DepartmentMech = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Mechanical Engineering</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../Mechanical.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           One among the first three departments to be established in 1964 in the institute, the

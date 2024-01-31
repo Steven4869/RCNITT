@@ -9,6 +9,9 @@ const DepartmentICE = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Instrumentation & Control Engineering</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../ICE.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The Department of Instrumentation and Control Engineering was established in the year

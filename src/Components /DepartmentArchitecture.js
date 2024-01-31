@@ -9,6 +9,9 @@ const DepartmentArchitecture = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Architecture</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../Architecture.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The research activities of faculty members in the Department of Architecture embrace a

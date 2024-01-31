@@ -30,11 +30,14 @@ const COESupercomputing = () => {
         </div>
       </div>
       <div className="COEPictures">
-        <img style={{width:'50%'}} className="COEPictureMain" src="../COESuperComputer.jpeg" alt="" />
-       
+        <img className="COEPictureMain" src="../NSM-1.jpeg" alt="" />
+        <img className="COEPictureMain" src="../NSM-2.jpeg" alt="" />
+        <img className="COEPictureMain" src="../NSM-3.jpeg" alt="" />
+        <img className="COEPictureMain" src="../NSM-4.jpeg" alt="" />
+        <img className="COEPictureMain" src="../NSM-5.jpeg" alt="" />
+        <img  className="COEPictureMain" src="../NSM-6.jpeg" alt="" />
       </div>
-     
-      
+
       <Footer />
     </>
   );

@@ -135,11 +135,11 @@ const GIAN = () => {
         <div className="AchievementsHeading">Total amount sanctioned under GIAN </div>
         <div className="AchievementsLabels">
           <div className="AchievementsLabel">
-            <div className="AchievementsText">GIAN</div>
+            <div className="AchievementsText">Completed</div>
             <div className="AchievementsNumber">1.55 Cr</div>
           </div>
           <div className="AchievementsLabel">
-            <div className="AchievementsText">PFMS</div>
+            <div className="AchievementsText">Ongoing</div>
             <div className="AchievementsNumber">18.24 L</div>
           </div>
         </div>

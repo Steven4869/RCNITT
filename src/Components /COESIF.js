@@ -3,6 +3,7 @@ import Banner from './Banner';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import Header from './Header';
+import SIFCarousel from './SIFCarousel';
 
 const COESIF = () => {
   return (
@@ -46,7 +47,41 @@ const COESIF = () => {
           </ul>
         </div>
       </div>
-      
+      {/* <div className="Content">
+        <div className="ContentStarter">
+          <strong>Vision:</strong> To enable cutting edge research, innovation, discovery through
+          the provision of state-of-the-art instrumentation, expertise and support service
+        </div>
+        <div className="ContentStarter">
+          <strong>Mission:</strong> To empower researchers, scientists, innovators across diverse
+          fields with the necessary research infrastructure necessary to drive impactful research,
+          innovation and education.
+        </div>
+      </div>
+      <div className="Infrastructure">
+        <div className="InfrastructureHeading">Objectives:</div>
+        <div className="InfrastructurePoints">
+          <ul>
+            <li>
+              To cater to the needs of researchers, students and faculty by offering convenient,
+              cost-effective, potential characterization and testing resources under one roof
+            </li>
+            <li>
+              To conduct regular hands-on training programs, nurturing a skilled workforce capable
+              of effectively utilizing advanced research equipment
+            </li>
+            <li>
+              To ensure the effective utilization of sophisticated equipment by facilitating ease of
+              access and encouraging collaborative sharing of the facility
+            </li>
+          </ul>
+        </div>
+      </div> */}
+      {/* <div className="ProjectsHeading">
+        {' '}
+        SIF has consistently drawn users from various Institutions and colleges across South India.
+      </div> */}
+      <SIFCarousel />
       <Footer />
     </>
   );

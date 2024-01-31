@@ -215,7 +215,7 @@ const HomePage = () => {
           </div>
           <div className="AchievementsLabel">
             <div className="AchievementsText">Consultancy Projects</div>
-            <div className="AchievementsNumber">1000</div>
+            <div className="AchievementsNumber">867+</div>
             <div className="AchievementsContent">Completed</div>{' '}
           </div>
           <div className="AchievementsLabel">

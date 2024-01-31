@@ -9,6 +9,9 @@ const DepartmentMME = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Metallurgical & Materials Engineering</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../MME.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           Presently the department of MME has seventeen faculty members working in advanced and

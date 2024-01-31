@@ -9,6 +9,9 @@ const DepartmentChemical = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Chemical Engineering</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../Chemical.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The Department of Chemical Engineering at NIT, Tiruchirappalli established in 1967, has

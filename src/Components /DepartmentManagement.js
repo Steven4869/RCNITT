@@ -9,6 +9,9 @@ const DepartmentManagement = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Management Studies</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../Management.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           Department of Management Studies, NIT Tiruchirappalli is a reputed 45 year-obusiness

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 import IICData from './IICRoles.json';
+import AliceCarousel from 'react-alice-carousel';
 const IIC = () => {
   const tableRows = IICData.map((project) => (
     <tr key={project.Name}>
@@ -11,6 +12,12 @@ const IIC = () => {
       <td>{project.Designation}</td>
     </tr>
   ));
+  const images = ['../IIC-1.JPG', '../IIC-2.JPG', '../IIC-3.JPG', '../IIC-4.JPG'];
+  const responsive = {
+    0: { items: 1 },
+    600: { items: 1 },
+    1024: { items: 1 },
+  };
   return (
     <>
       <Header />
@@ -46,6 +53,27 @@ const IIC = () => {
           innovation ecosystem in the campus. This is a promising outcome and a good starting point
           in realizing Atmanirbhar Bharat, i.e. a self-reliant nation.
         </div>
+      </div>
+      <div>
+        <AliceCarousel
+          autoPlay
+          autoPlayInterval={3000}
+          responsive={responsive}
+          buttonsDisabled={true} // Disable default buttons
+          dotsDisabled={false}
+          infinite={true}
+        >
+          {images.map((image, index) => (
+            <div className="CarouselContainer">
+              <img
+                key={index}
+                src={image}
+                alt={''}
+                className="carousel-image"
+              />
+            </div>
+          ))}
+        </AliceCarousel>
       </div>
       <div className="ContactInformation">
         <div className="ContactInfoContent">For more details, contact: Dr. K. Muthukumar</div>

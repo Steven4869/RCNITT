@@ -132,12 +132,15 @@ const IPR = () => {
           options={options}
         />
       </div>
-      <div className="ContactInfo">
-        <div className='ContactInformation'>HEAD IPR CELL</div>
-        <div className='ContactInformation'>Dr. M. Premalatha</div>
-        <div className='ContactInformation'>Professor Department of Energy and Environment</div>
-        <div className='ContactInformation'>National Institute of Technology Tiruchirappalli - 620015 Tamil Nadu, India</div>
+      <div className="ContactInformation">
+        <div className="ContactInfoContent">HEAD IPR CELL: Dr. M. Premalathar</div>
+        <div className="ContactInfoContent"> Professor, Department of Energy and Environment.</div>
+        <div className="ContactInfoContent">
+          {' '}
+          National Institute of Technology Tiruchirappalli - 620015 Tamil Nadu, India
+        </div>
       </div>
+
       <Footer />
     </>
   );

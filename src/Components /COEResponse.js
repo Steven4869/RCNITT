@@ -26,6 +26,11 @@ const COEResponse = () => {
           and security of Indians.
         </div>
       </div>
+      <div className="COEPictures">
+        <img className="COEPictureMain" src="../COESS-1.jpg" alt="" />
+        <img className="COEPictureMain" src="../COESS-2.jpg" alt="" />
+        <img className="COEPictureMain" src="../COESS-3.jpg" alt="" />
+      </div>
       <div className="Infrastructure">
         <div className="InfrastructureHeading">Infrastructure</div>
         <div className="InfrastructurePoints">

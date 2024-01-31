@@ -9,6 +9,9 @@ const DepartmentPhysics = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Physics</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../Physics.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The Department of Physics offers M.Tech in Nondestructive testing, M.Sc. in Physics, and

@@ -9,6 +9,9 @@ const DepartmentCivil = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Civil Engineering</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../Civil.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           Department of Civil Engineering is one of the founding departments of National Institute

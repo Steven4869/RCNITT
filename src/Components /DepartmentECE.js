@@ -9,6 +9,9 @@ const DepartmentECE = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Electronics & Communications Engineering</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../ECE.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The Department of Electronics and Communication Engineering (ECE) was started in the year

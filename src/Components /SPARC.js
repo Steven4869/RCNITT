@@ -156,12 +156,12 @@ const SPARC = () => {
         <div className="AchievementsHeading">Total amount of SPARC project received </div>
         <div className="AchievementsLabels">
           <div className="AchievementsLabel">
-            <div className="AchievementsText">Phase I </div>
+            <div className="AchievementsText">Completed</div>
             <div className="AchievementsNumber">2.79 Cr</div>
             <div className="AchievementsContent">11 Projects</div>
           </div>
           <div className="AchievementsLabel">
-            <div className="AchievementsText">Phase II</div>
+            <div className="AchievementsText">Ongoing</div>
             <div className="AchievementsNumber">1.5 Cr</div>
             <div className="AchievementsContent">6 Projects</div>
           </div>
@@ -177,7 +177,7 @@ const SPARC = () => {
             scale: 180,
             rotation: [-11, 0, 0],
           }}
-          style={{ backgroundColor: 'black', height: '100%', width:'100%' }}
+          style={{ backgroundColor: '#F5F5F5', height: '100%', width:'100%',  }}
           >
           <Geographies geography="/features.json">
             {({ geographies }) =>
@@ -187,7 +187,7 @@ const SPARC = () => {
                   geography={geo}
                   style={{
                     default: {
-                      fill: '#D6D6DA',
+                      fill: 'black',
                       outline: 'none',
                     },
                     hover: {
@@ -208,8 +208,8 @@ const SPARC = () => {
             <Line
               key={index}
               coordinates={[indiaCoordinates, marker.coordinates]}
-              stroke="white" // Line color
-              strokeWidth={1} // Line width
+              stroke="red" // Line color
+              strokeWidth={2} // Line width
             />
           ))}
 

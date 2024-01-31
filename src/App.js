@@ -45,6 +45,7 @@ import CEDI from './Components /CEDI';
 import SkillHub from './Components /SkillHub';
 import MSME from './Components /MSME';
 import IIC from './Components /IIC';
+import STIC from './Components /STIC';
 
 
 const scrollToTop = () => {
@@ -78,6 +79,8 @@ const App = () => {
           <Route path="/coeSIF" element={<COESIF />} />
           <Route path="/coeNDRC" element={<COENDRC />} />
           <Route path="/IPR" element={<IPR />} />
+          <Route path="/STIC" element={<STIC />} />
+
 
           <Route path="/Consultancy" element={<Consultancy />} />
           <Route path="/ResearchActivities" element={<ResearchActivities />} />

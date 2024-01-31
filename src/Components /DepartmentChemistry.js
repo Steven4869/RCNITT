@@ -9,6 +9,9 @@ const DepartmentChemistry = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Chemistry</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../Chemistry.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The Department of Chemistry was established in 1971. It is located in the OJAS building.

@@ -38,6 +38,29 @@ font-weight: 500;
 line-height: 161.4%; /* 48.42px */
 letter-spacing: 0.3px;
 }
+.ContentLink{
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+.ContentStarterLink{
+    margin-top: 15px;
+    max-width: 850px;
+    color: #000;
+font-family: Lato;
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+line-height: normal; /* 48.42px */
+}
+.ContentStarterLink a:hover{
+    color: gray;
+    border-bottom: 2px solid black;
+}
 
 .StarterHeading{
     display: flex;
@@ -51,7 +74,7 @@ font-family: Lato;
 font-size: 40px;
 font-style: normal;
 font-weight: 800;
-line-height: 60px; /* 100% */
+line-height: 40px; /* 100% */
 }
 
 .Card{
@@ -176,6 +199,7 @@ font-style: normal;
 .COEPictureMain{
     width: 300px;
     height: 200px;
+    margin: 20px;
 }
 .InfrastructureHeading{
     margin-left: 200px;
@@ -187,8 +211,18 @@ font-style: normal;
     margin-left: 200px;
     font-size: 20px;
     margin-bottom: 50px;
+    font-family: 'Lato';
 }
 @media only screen and (max-width: 768px){
+    .ContentLink{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        /* align-items: center; */
+        text-align: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
     .ContentStarter{
         margin-top: 20px;
         margin-left: 20px;

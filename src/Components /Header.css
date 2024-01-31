@@ -46,7 +46,6 @@
 
   
   .HeaderNavigation {
-    margin-left: 200px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -177,6 +176,9 @@
   }
 
   @media only screen and (max-width: 768px){
+    .HeaderNavbars{
+      margin-left: 10px;
+    }
     .HeaderMainLogo{
       display: flex;
       flex-direction: column;
@@ -222,7 +224,7 @@
       top: 0;
       left: 90%;
       /* Position it to the right of the parent */
-      width: 200px; /* Set the width as needed */
+      width: 180px; /* Set the width as needed */
       max-height: 500px; /* Set the maximum height to enable scrolling */
       overflow-y: auto;
       overflow-x: auto;

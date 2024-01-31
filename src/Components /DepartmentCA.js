@@ -9,6 +9,9 @@ const DepartmentCA = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Computer Applications</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../CA.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The Department of Computer Applications at National Institute of Technology,

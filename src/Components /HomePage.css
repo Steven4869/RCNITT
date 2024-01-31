@@ -144,6 +144,7 @@ line-height: 36px;
     margin-bottom: 100px;
   }
   .AssociateDeansHeading{
+    font-weight: Lato;
     margin-top: 30px;
     font-size: 45px;
     display: flex;
@@ -196,6 +197,7 @@ line-height: 36px;
     flex-direction: column;
  }
  .RegistrarOfficeLabelHeading{
+  font-family: Lato;
   font-size: 30px;
   margin-bottom: 30px;
  }
@@ -407,14 +409,16 @@ align-items: center;
     margin-bottom: 50px;
   }
   .FundingAgenciesPic{
-    width: 70%;
+    width: 50%;
   }
   .CenterHeading{
+    font-family: Lato;
     font-size: 24px;
     font-weight: 500;
     margin-left: 300px;
   }
   .InfrastructurePointsBullet{
+    font-family: Lato;
     margin: 10px;
     max-width: 800px;
     margin-left: 350px;
@@ -454,7 +458,49 @@ align-items: center;
   .Venue{
     text-align: left;
   }
+  .SkillHubMain{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.SKillHub{
+    width: 300px;
+    height: auto;
+}
+.CarouselContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-image {
+  width: 60%;
+  height: 30%;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+}
+.DepartmentPictures{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.DepartmentPicturesMain{
+  width: 600px;
+  height: 400px;
+}
   @media only screen and (max-width: 768px){
+    .SkillHubMain{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  .SKillHub{
+      width: 300px;
+      height: auto;
+      margin-top: 30px;
+  }
     .ContactInfoContent {
       font-size: 14px;
       margin: 10px 0;
@@ -479,6 +525,7 @@ align-items: center;
       height: 100%; /* Fill the entire height of the AssociateDeanLabel */
     }
     .descriptionHeading{
+      font-family: Lato;
       margin-top: 20px;
       font-size: 18px;
     }

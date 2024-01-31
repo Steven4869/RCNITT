@@ -9,6 +9,9 @@ const DepartmentProd = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Production Engineering</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../Production.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           Production Engineering (PE) is an interdisciplinary engineering that includes

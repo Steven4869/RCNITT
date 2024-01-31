@@ -9,6 +9,9 @@ const DepartmentEEE = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Electrical & Electronics Engineering</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../EEE.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The Department of Electrical and Electronics Engineering, NIT Tiruchirappalli was started

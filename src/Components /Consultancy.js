@@ -124,7 +124,7 @@ const Consultancy = () => {
 
       <div className="ResearchPlot">
         <div className="ResearchPlotHeading">
-          Amount Sanctioned (INR Crore) for Consultancy Projects
+          Revenue Generated (INR Crore)
         </div>
         <Chart
           chartType="ColumnChart"

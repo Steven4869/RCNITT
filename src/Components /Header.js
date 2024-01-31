@@ -61,7 +61,10 @@ const Header = () => {
         <div className="HeaderLeftContainer">
           <div className="HeaderMainLogo">
             <img src="/college_header.png" alt="logo" className="HeaderLogoSize" />
-            <div className="HeaderMainContenr">Research at NIT-Trichy</div>
+
+            <div className="HeaderMainContenr">
+              <Link to={'/'}>Research at NIT-Trichy</Link>
+            </div>
           </div>
         </div>
         <div className="HeaderRightContainer">
@@ -167,6 +170,9 @@ const Header = () => {
                 <div className="HeaderNavbarDropdownContent">
                   <Link to="/GIAN">GIAN</Link>
                 </div>
+                <div className="HeaderNavbarDropdownContent">
+                  <Link to="/STIC">ISRO STIC</Link>
+                </div>
               </div>
             </div>
             <div className="HeaderNavbars">
@@ -205,7 +211,7 @@ const Header = () => {
               onMouseEnter={handleOutreachDropdownToggle}
               onMouseLeave={handleOutreachDropdownToggle}
             >
-              <Link to={'/'}>Outreach</Link>
+              <Link to={'#'}>Outreach</Link>
               <div className={`HeaderNavbarDropdown ${outreachDropdownOpen ? 'show' : ''}`}>
                 <div className="HeaderNavbarDropdownContent">
                   <Link to="/MSME">MSME</Link>
