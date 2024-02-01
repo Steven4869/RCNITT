@@ -485,8 +485,8 @@ align-items: center;
   align-items: center;
 }
 .DepartmentPicturesMain{
-  width: 600px;
-  height: 400px;
+  width: 60%;
+  height: 40%;
 }
   @media only screen and (max-width: 768px){
     .SkillHubMain{
