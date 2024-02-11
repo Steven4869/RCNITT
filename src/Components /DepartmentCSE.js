@@ -9,6 +9,9 @@ const DepartmentCSE = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Computer Science & Engineering</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../CSE.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The Department of Computer Science and Engineering, National Institute of Technology,

@@ -52,16 +52,40 @@ const Contact = () => {
           <h2>Contact Us</h2>
           <form action="https://formsubmit.co/deanrc@nitt.edu" method="POST">
             <label htmlFor="name">Name:</label>
-            <input type="text" id="name" name="name" required />
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Please Enter your Name"
+              required
+            />
 
             <label htmlFor="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Please Enter your Email Address"
+              required
+            />
 
             <label htmlFor="phone">Phone:</label>
-            <input type="tel" id="phone" name="phone" required />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="Please Enter your Phone Number"
+              required
+            />
 
             <label htmlFor="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Please write your Message"
+              required
+            ></textarea>
 
             <button type="submit">Submit</button>
           </form>

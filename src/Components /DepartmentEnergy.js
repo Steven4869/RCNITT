@@ -9,6 +9,9 @@ const DepartmentEnergy = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Energy & Environment</div>
       </div>
+      <div className="DepartmentPictures">
+        <img className="DepartmentPicturesMain" src="../Energy.jpeg" alt="" />
+      </div>
       <div className="Content">
         <div className="ContentStarter">
           The Department of Energy and Environment (DEE) formerly, Centre for Energy and

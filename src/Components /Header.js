@@ -45,7 +45,7 @@ const Header = () => {
 
   const handleScroll = () => {
     const offset = window.scrollY;
-    setSticky(offset > 240);
+    setSticky(offset > 10);
   };
 
   useEffect(() => {

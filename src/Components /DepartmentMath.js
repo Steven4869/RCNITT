@@ -9,6 +9,7 @@ const DepartmentMath = () => {
       <div className="Heading">
         <div className="HeadingText">Department of Mathematics</div>
       </div>
+
       <div className="Content">
         <div className="ContentStarter">
           The Department of Mathematics established in 1964 along with the inception of the then

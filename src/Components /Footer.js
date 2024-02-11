@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
     <>
@@ -45,14 +46,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="Logo">
-          <img src="../logo.png" alt="Logo" className="LogoSize" />
-        </div>
         <div className="Connect">
           <div className="ConnectHeading">Contact</div>
           <div className="sendEmail"></div>
 
           <div className="ConnectLabels">
+            
             <div className="ConnectLabel">Ph. No: +91-431-2503031</div>
             <div className="ConnectLabel">
               Email ID: <a href="mailto:deanrc@nitt.edu">deanrc@nitt.edu</a>

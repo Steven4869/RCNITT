@@ -3,8 +3,21 @@ import Banner from './Banner';
 import Navigation from './Navigation';
 import Footer from './Footer';
 import Header from './Header';
+import { ComposableMap, Geographies, Geography, Marker, Line } from 'react-simple-maps';
 
 const GIAN = () => {
+  const indiaCoordinates = [78.9629, 20.5937];
+
+  const lineData = [
+    { coordinates: [-3.436, 55.3781], name: 'United Kingdom' },
+    { coordinates: [-95.7129, 37.0902], name: 'USA' },
+    { coordinates: [-106.3468, 56.1304], name: 'Canada' },
+    { coordinates: [5.2913, 52.1326], name: 'Netherlands' },
+    { coordinates: [127.7669, 35.9078], name: 'South Korea' },
+    { coordinates: [103.8198, 1.3521], name: 'Singapore' },
+    { coordinates: [101.9758, 4.2105], name: 'Malaysia' }
+];
+
   const projectsData = [
     {
       sno: 1,
@@ -143,6 +156,70 @@ const GIAN = () => {
             <div className="AchievementsNumber">18.24 L</div>
           </div>
         </div>
+      </div>
+      <div className="Projects">
+        <div className="ProjectsHeading">GIAN connecting with world</div>
+      </div>
+      <div className="map" style={{ height: '750px' }}>
+        <ComposableMap
+          projectionConfig={{
+            scale: 180,
+            rotation: [-11, 0, 0],
+          }}
+          style={{ backgroundColor: '#F5F5F5', height: '100%', width:'100%',  }}
+          >
+          <Geographies geography="/features.json">
+            {({ geographies }) =>
+              geographies.map((geo) => (
+                <Geography
+                  key={geo.rsmKey}
+                  geography={geo}
+                  style={{
+                    default: {
+                      fill: 'black',
+                      outline: 'none',
+                    },
+                    hover: {
+                      fill: '#F53',
+                      outline: 'none',
+                    },
+                    pressed: {
+                      fill: '#E42',
+                      outline: 'none',
+                    },
+                  }}
+                />
+              ))
+            }
+          </Geographies>
+
+          {lineData.map((marker, index) => (
+            <Line
+              key={index}
+              coordinates={[indiaCoordinates, marker.coordinates]}
+              stroke="red" // Line color
+              strokeWidth={2} // Line width
+            />
+          ))}
+
+          {lineData.map((marker, index) => (
+            <Marker
+              key={index}
+              coordinates={marker.coordinates}
+              onMouseEnter={() => console.log(`Hovered on ${marker.name}`)}
+            >
+              <circle r={5} fill="#F00" />
+            </Marker>
+          ))}
+
+          {/* India marker */}
+          <Marker
+            coordinates={indiaCoordinates}
+            onMouseEnter={() => console.log('Hovered on India')}
+          >
+            <circle r={5} fill="#F00" />
+          </Marker>
+        </ComposableMap>
       </div>
 
       <Footer />
