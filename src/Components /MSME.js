@@ -95,7 +95,10 @@ const MSME = () => {
       </div>
       <div className="Infrastructure">
         <div className="CenterHeading">
-          Details of the activities approved under MSME- Design scheme since appointment as IA:
+         {/* NIT Trichy has been active in providing the platform for Students design projects,  Conducting Entrepreneurship Awareness Programme, Advanced Entrepreneurship Skill Development Programme, Advanced Management Development Programme, Screening of Proposals for different MSME hackathons, representation for MSME Chair professorship, Expression of Interest for Center of Excellences etc., */}
+         
+         
+         Details of the activities approved under MSME- Design scheme since appointment as IA:
         </div>
         <div className="InfrastructurePointsBullet">
           <ul>

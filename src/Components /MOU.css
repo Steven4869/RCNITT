@@ -19,24 +19,8 @@
     font-weight: 700;
     line-height: normal;
 }
-.Content{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 40px;
-}
-.ContentStarter{
-    margin-top: 40px;
-    max-width: 850px;
-    color: #000;
-font-family: Lato;
-font-size: 20px;
-font-style: normal;
-font-weight: 500;
-line-height: 161.4%; /* 48.42px */
-letter-spacing: 0.3px;
-}
+
+
 .Collaboration{
     background-color: #2F2F2F;
     display:flex;

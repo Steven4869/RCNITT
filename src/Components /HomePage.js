@@ -146,7 +146,6 @@ const HomePage = () => {
             <img src="./dean1.jpg" alt="" className="RegistrarOfficePictureLabel" />
             <div className="description">
               <div className="descriptionHeading">Dr. R. Anand, Mechanical</div>
-              
             </div>
           </div>
         </div>
@@ -185,6 +184,22 @@ const HomePage = () => {
                 <p>Institute wide Research Centers and Facilities</p>
                 <p>PhD and Postgraduate research schemes and opportunities</p>
                 <p>Corporate Social Responsibility (CSR) projects</p>
+              </div>
+            </div>
+          </div>
+          <div className="AssociateDeanLabel">
+            <div className="AssociateDeanLabelHeading">Associate Dean </div>
+            <div className="AssociateDeanLabelHeader">(Research)</div>
+            <img src="./dean3.jpeg" alt="" className="pictureLabel" />
+            <div className="description">
+              <div className="descriptionHeading">Dr. V. Mariappan, Mechanical</div>
+              <div className="description-container">
+                <p>Initiation of MoUs and Follow-up</p>
+                <p>Collection of CSR Funds</p>
+                <p>Industry Institute Interaction Activities</p>
+                <p>Organizing Various BIS Activities</p>
+                <p>MSME Activities</p>
+                <p>IIC Activities</p>
               </div>
             </div>
           </div>

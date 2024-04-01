@@ -415,13 +415,14 @@ align-items: center;
     font-family: Lato;
     font-size: 24px;
     font-weight: 500;
-    margin-left: 300px;
+    margin-left: 5%;
+    margin-top: 3%;
   }
   .InfrastructurePointsBullet{
     font-family: Lato;
     margin: 10px;
     max-width: 800px;
-    margin-left: 350px;
+    margin-left: 3%;
     font-size: 18px;
     line-height: normal;
     margin-bottom: 15px;
