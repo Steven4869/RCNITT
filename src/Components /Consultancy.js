@@ -49,10 +49,6 @@ const Consultancy = () => {
       name: '2023',
       amount: '6.49',
     },
-    {
-      name: '2024',
-      amount: '15',
-    },
   ];
 
   const chartData2 = [
